@@ -7,7 +7,7 @@
 
 ## Outline of features
 
-This project is my take on a style/fasion blog.
+This project a style/fasion blog SPA to practice implementing VueJS.
 
 **Features**:
 
@@ -30,8 +30,6 @@ This project is my take on a style/fasion blog.
 
 ## Outside resources
 
-###Resources from P3
-
 W3Schools:
 
  - [CSS Fixed Sidebar](https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp)
@@ -52,10 +50,6 @@ W3Schools:
 
 [Favicon Generator](https://www.favicon-generator.org/)
 
-----------------------------------------------------------
-
-### Resources for P4
-
 [Cypress E2E Testing](Cypress.io)
 
 - [Cypress API documention](https://docs.cypress.io/api/api/table-of-contents.html)
@@ -74,22 +68,9 @@ W3Schools:
 
 - I had a lot of trouble doing unit tests with my components because a lot of them would query state from the Vuex `$store`. I needed to figure out a way to effectively override any store-specific methods like `dispatch()`because it was preventing my test from passing.
 
-## Notes for instructor
-
-1. I didn't find the need to switch to *Firebase* since my project worked fine despite size limitations of *My JSON Server*.
-2. I had a difficult time integrating form validation to my project, so I hope the basic "comments section" I added is sufficient. Unfortunately, the comments do not persist and are just proof of concept for Vuelidate.
-3. I noticed a bug in which, upon switching back to the home page, the "Featured Outfit" appears to be in the process of picking a random outfit. It seems like the application is shuffling throught the array trying to pick an outfit. I wasn't sure how to fix that.
-4. Unfortunately, by the time I was finishing up P4, I had not received a peer review of my P3, so I tried my best to just improve my SPA based on the flaws I noticed from P3. 
-
-**Fixes/changes include:**
+**Bug Fixes/Changes:**
 
 - Fixed bug where outfit title was missing when viewing outfits on `/favorites`.
 - Made adding and removing favorite outfits more reactive; user no longer needs to refresh page to reflect changes in favorites. Upon clicking the remove button, the outfit disappears.
 - Added a proper home page so users have something to look at upon landing on the website.
 - Some minor CSS changes for improved visualization.
-
-
-
-**Concluding Notes:**
-
-Thank you so much for your amazing semester! I learned a lot and hope to build upon it the skills you've taught me. I'm taking my first steps into the world of software development and coding in general, so thank you for this experience. You're a fantastic instructor! I wish you luck on your future class(es) and/or endeavors.
