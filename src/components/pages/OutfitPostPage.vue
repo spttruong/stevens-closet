@@ -5,7 +5,7 @@
             <div class='outfit-post-visual'>
                 <h2 class='outfit-post-title'>{{ outfit.title }}</h2>
                 <add-to-favorites-button :outfitId='this.id'></add-to-favorites-button>
-                <img class='outfit-post-image' :src='"./../../assets/images/outfits/" + outfit.id + ".jpg"' :alt='"Image of outfit titled " + outfit.title'>
+                <img class='outfit-post-image' :src='"./../../assets/images/outfits/" + outfit.id + ".png"' :alt='"Image of outfit titled " + outfit.title'>
             </div>
 
             <div class='outfit-post-details'>
