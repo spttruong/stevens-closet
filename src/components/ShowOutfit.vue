@@ -15,7 +15,7 @@
       <img
         data-test="outfit-image"
         class="outfit-image-thumb"
-        :src="'../assets/images/outfits/' + outfit.id + '.png'"
+        :src="'./../assets/images/outfits/' + outfit.id + '.png'"
         :alt="'Image of outfit titled ' + outfit.title"
       />
     </router-link>
