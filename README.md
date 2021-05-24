@@ -1,7 +1,6 @@
-# Project 4
+# Steven's Closet
 
 - By: Steven Truong
-- Production URL: http://p4.struong.me
 
 ## 
 
