@@ -1,8 +1,4 @@
-# Steven's Closet
-
-- By: Steven Truong
-
-## 
+by Steven Truong
 
 ## Outline of features
 
