@@ -1,5 +1,7 @@
 by Steven Truong
 
+URL: https://vuemycloset.netlify.app/
+
 ## Outline of features
 
 This project a style/fasion blog SPA to practice implementing VueJS.
